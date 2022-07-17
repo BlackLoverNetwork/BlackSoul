@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by BlackLoverNetwork@Github, < https://github.com/BlackLoverNetwork >.
 #
-# This file is part of < https://github.com/TeamYukki/BlackSoulBot > project,
+# This file is part of < https://github.com/BlackLoverNetwork/BlackSoulBot > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/BlackSoulBot/blob/master/LICENSE >
+# Please see < https://github.com/BlackLoverNetwork/BlackSoulBot/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -57,7 +57,7 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("TeamYukki")
+                await self.one.join_chat("BlackLoverNetwork")
                 await self.one.join_chat("TheYukki")
                 await self.one.join_chat("YukkiSupport")
             except:
@@ -88,7 +88,7 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("TeamYukki")
+                await self.two.join_chat("BlackLoverNetwork")
                 await self.two.join_chat("TheYukki")
                 await self.two.join_chat("YukkiSupport")
             except:
@@ -119,7 +119,7 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("TeamYukki")
+                await self.three.join_chat("BlackLoverNetwork")
                 await self.three.join_chat("TheYukki")
                 await self.three.join_chat("YukkiSupport")
             except:
@@ -150,7 +150,7 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("TeamYukki")
+                await self.four.join_chat("BlackLoverNetwork")
                 await self.four.join_chat("TheYukki")
                 await self.four.join_chat("YukkiSupport")
             except:
@@ -181,7 +181,7 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("TeamYukki")
+                await self.five.join_chat("BlackLoverNetwork")
                 await self.five.join_chat("TheYukki")
                 await self.five.join_chat("YukkiSupport")
             except:
