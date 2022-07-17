@@ -11,8 +11,15 @@
     "telegram-bot",
     "pyrogram"
     ],
-    "stack": "container",
-    "env": {
+    "repository": "https://github.com/mukeshmoni227/BlackSoul",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
         "value": "",
