@@ -12,14 +12,8 @@
     "pyrogram"
     ],
     "repository": "https://github.com/mukeshmoni227/BlackSoul",
-   "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
+    "stack": "container",
+    "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
         "value": "",
@@ -97,10 +91,11 @@
               "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
           }
       ],
-      "formation": {
-          "worker": {
-              "quantity": 1,
-              "size": "free"
-          }
-      }
-  }
+          "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "stack": "container"
+}
