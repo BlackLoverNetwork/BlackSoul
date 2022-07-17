@@ -1,11 +1,9 @@
 #
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
+# Copyright (C) 2021-2022 by BlackLoverNetwork@Github, < https://github.com/BlackLoverNetwork >.
 #
-# This file is part of < https://github.com/TeamYukki/BlackSoulBot > project,
+# This file is part of < https://github.com/BlackLoverNetwork/BlackSoul > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/BlackSoulBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# Please see < https://github.com/BlackLoverNetwork/BlackSoul/blob/master/LICENSE >
 
 import asyncio
 import importlib
@@ -72,10 +70,10 @@ async def init():
     except:
         pass
     await Yukki.decorators()
-    LOGGER("BlackSoul").info("Yukki Music Bot Started Successfully")
+    LOGGER("BlackSoul").info("Black soul Music Bot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("BlackSoul").info("Stopping Yukki Music Bot! GoodBye")
+    LOGGER("BlackSoul").info("Stopping black soul Music Bot! GoodBye")
