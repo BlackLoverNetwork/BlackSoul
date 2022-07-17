@@ -90,7 +90,7 @@ installation(){
 }
 
 clear
-pprint "Welcome to Yukki Music Bot Setup Installer\n\n"
+pprint "Welcome to Black Soul Music Bot Setup Installer\n\n"
 pprint "If you see any error during Installation Process, Please refer to these files for logs: "
 pprint "\nFor node js errors , Checkout nodelog.txt"
 pprint "\nFor pypi packages errors , Checkout pypilog.txt"
