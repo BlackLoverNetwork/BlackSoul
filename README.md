@@ -17,3 +17,8 @@ The Easiest Way to Deploy This Bot is Via Heroku.
 </h1>
 
 </details>
+
+
+
+<h4>ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴏɴ ᴏᴋᴛᴇᴛᴏ!</h4>
+<p align="center"><a href="https://cloud.okteto.com/deploy?repository=https://github.com/Telugucoders/Amalamusic"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200""/></a>
