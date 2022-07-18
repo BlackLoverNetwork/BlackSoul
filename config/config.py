@@ -3,7 +3,7 @@
 #
 # This file is part of < https://github.com/BlackLoverNetwork/BlackSoul > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/BlackLoverNetwork/BlackSoul/blob/master/LICENSE >
+# Please see < https://github.com/BlackLoverNetwork/BlackSoul/blob/main/LICENSE >
 #
 # All rights reserved.
 
@@ -17,14 +17,14 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "9365912")
+API_HASH = getenv("API_HASH", "3e79bf1f0830b1dff5ac6520db7829bc")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5122793555:AAF2OfnQ-SyG7NuhJmlFuf1blWk7qVfKLps")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Hacker999:selvan868@cluster0.z27ur.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001675184194"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Black Soul")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("OWNER_ID", "1046693602").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -58,7 +58,7 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/BlackLoverNetwork/BlackSoul",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv("GIT_TOKEN", None)
@@ -135,7 +135,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQBnGC7bb1bC5tzEZGMpPPLMU37VuNn4riKY2Qnw6Bf40exAN81CfAXClGBAPNEDLYFEkaULcr3RgvD1kEhJK2AyQi2_hAU3GqymPcmQbKkegK3Dak7WsHfHYiMkacRw6AfdrzD5gMEkcbyWAsCb6hRO7izTXD4wcN1cpSi_XTtct1zCtxPUdGvDbkhm6R4cBMVsFIunCkJz0FOoxx_eTSLMNzSb7DgrYGtYtJISLU88pDsPLg7kw8giYOWsa6vwNlVQ-cGvFkqcTI1HhJt8RDmfCduM-spZvJI5UKLugiLlIiNr116qGm3BoPukEYOI3v6EBlSbr8oLZ08I-0Qi8qwFAAAAATtTqsEA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -154,7 +154,7 @@ STRING5 = getenv("STRING_SESSION5", None)
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
 LOG = 2
-LOG_FILE_NAME = "Yukkilogs.txt"
+LOG_FILE_NAME = "BlackSoullogs.txt"
 adminlist = {}
 lyrical = {}
 chatstats = {}
